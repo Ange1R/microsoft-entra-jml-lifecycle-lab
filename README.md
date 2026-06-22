@@ -83,6 +83,11 @@ Erin Hannon was provisioned as a new Dunder Mifflin Reception employee.
 
 Erin was provisioned successfully as an enabled Reception employee with appropriate department-based access.
 
+### Final Group Memberships
+
+- `SG-DM-Reception`
+- `SG-DM-All-Employees`
+
 ---
 
 # Mover Workflow — Jim Halpert
@@ -118,6 +123,99 @@ Jim's outdated Sales access was removed and replaced with Management access.
 
 ### Final Group Memberships
 
+- `SG-DM-Management`
+- `SG-DM-All-Employees`
+
+---
+
+# Leaver Workflow — Ryan Howard
+
+## Scenario
+
+Ryan Howard was offboarded from Dunder Mifflin. His account was retained for audit purposes but disabled and stripped of active business access.
+
+## Account Details
+
+| Attribute | Before Offboarding | Final State |
+|---|---|---|
+| Display Name | Ryan Howard | Ryan Howard |
+| Department | Sales | Sales |
+| Job Title | Sales Representative | Sales Representative |
+| Account Status | Enabled | Disabled |
+| Starting Groups | `SG-DM-Sales`, `SG-DM-All-Employees` | N/A |
+| Final Group | N/A | `SG-DM-Leaver-Hold` |
+
+## Actions Performed
+
+1. Created Ryan Howard as an active Sales employee.
+2. Assigned `SG-DM-Sales` and `SG-DM-All-Employees` access.
+3. Disabled Ryan's Microsoft Entra account.
+4. Revoked active sign-in sessions.
+5. Removed Ryan from `SG-DM-Sales`.
+6. Removed Ryan from `SG-DM-All-Employees`.
+7. Added Ryan to `SG-DM-Leaver-Hold`.
+8. Retained the disabled account for audit and record-retention purposes.
+9. Verified final account status and group membership through Microsoft Graph PowerShell.
+10. Reviewed Entra audit logs to confirm successful offboarding actions.
+
+## Result
+
+Ryan's account remained in Microsoft Entra ID for audit and retention purposes, but sign-in was blocked and all active department and employee access was removed.
+
+### Final Group Membership
+
+- `SG-DM-Leaver-Hold`
+
+---
+
+# Final Validation
+
+| User | Final Department | Final Job Title | Account Enabled | Final Groups |
+|---|---|---|---|---|
+| Erin Hannon | Reception | Receptionist | True | `SG-DM-Reception`, `SG-DM-All-Employees` |
+| Jim Halpert | Management | Assistant Regional Manager | True | `SG-DM-Management`, `SG-DM-All-Employees` |
+| Ryan Howard | Sales | Sales Representative | False | `SG-DM-Leaver-Hold` |
+
+---
+
+# Audit and Verification
+
+Microsoft Entra ID audit logs were reviewed for each lifecycle workflow.
+
+Audit evidence confirmed successful Microsoft Graph-initiated actions, including:
+
+- User creation
+- Password profile configuration
+- User attribute updates
+- Group membership assignment
+- Group membership removal
+- Account disablement
+- Sign-in session revocation
+- Retention-group assignment
+
+---
+
+# Licensing Limitation
+
+This lab was completed using Microsoft Entra ID Free. The tenant did not have a usable Microsoft 365 license SKU available, so license assignment and removal were not performed.
+
+The lab still demonstrated the core JML lifecycle activities: account provisioning, profile updates, role-based group access, removal of outdated access, account disablement, session revocation, audit validation, and retained-account handling.
+
+---
+
+# Skills Demonstrated
+
+- Microsoft Entra ID administration
+- Microsoft Graph PowerShell
+- Joiner-Mover-Leaver lifecycle management
+- User provisioning and deprovisioning
+- Security group management
+- Department-based access control
+- Least-privilege access transitions
+- Account disablement
+- Session revocation
+- Identity audit-log validation
+- IAM workflow documentation
 ```text
 SG-DM-Management
 SG-DM-All-Employees
