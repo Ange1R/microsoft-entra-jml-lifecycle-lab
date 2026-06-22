@@ -195,14 +195,6 @@ Audit evidence confirmed successful Microsoft Graph-initiated actions, including
 
 ---
 
-# Licensing Limitation
-
-This lab was completed using Microsoft Entra ID Free. The tenant did not have a usable Microsoft 365 license SKU available, so license assignment and removal were not performed.
-
-The lab still demonstrated the core JML lifecycle activities: account provisioning, profile updates, role-based group access, removal of outdated access, account disablement, session revocation, audit validation, and retained-account handling.
-
----
-
 # Skills Demonstrated
 
 - Microsoft Entra ID administration
