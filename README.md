@@ -209,5 +209,3 @@ Audit evidence confirmed successful Microsoft Graph-initiated actions, including
 - Identity audit-log validation
 - IAM workflow documentation
 ```text
-SG-DM-Management
-SG-DM-All-Employees
