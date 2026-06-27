@@ -219,38 +219,38 @@ The screenshots below show the completed Microsoft Entra ID Joiner-Mover-Leaver 
 
 **Erin’s account attributes were created and validated through Microsoft Graph PowerShell.**
 
-![Erin profile validation](screenshots/Entra-JML-Dunder-Mifflin-Lab/02-Joiner-Erin/02-Joiner-Erin%3A03-erin-profile-verified-powershell.png)
+![Erin profile validation](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/02-Joiner-Erin/02-Joiner-Erin%3A03-erin-profile-verified-powershell.png?raw=true)
 
 **Entra audit logs confirmed successful user provisioning and group assignments.**
 
-![Erin audit logs](screenshots/Entra-JML-Dunder-Mifflin-Lab/02-Joiner-Erin/02-Joiner-Erin%3A09-erin-audit-logs.png)
+![Erin audit logs](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/02-Joiner-Erin/02-Joiner-Erin%3A09-erin-audit-logs.png?raw=true)
 
 ## Mover — Jim Halpert
 
 **Jim’s department and job title were updated from Sales Representative to Assistant Regional Manager.**
 
-![Jim profile after move](screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A09-jim-profile-after-move.png)
+![Jim profile after move](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A09-jim-profile-after-move.png?raw=true)
 
 **Jim’s legacy Sales access was removed and Management access was assigned.**
 
-![Jim groups after move](screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A11-jim-groups-after-move.png)
+![Jim groups after move](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A11-jim-groups-after-move.png?raw=true)
 
 **Audit logs confirmed the user update, Sales-group removal, and Management-group assignment.**
 
-![Jim audit logs](screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A15-jim-audit-logs.png)
+![Jim audit logs](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/03-Mover-Jim/03-Mover-Jim%3A15-jim-audit-logs.png?raw=true)
 
 ## Leaver — Ryan Howard
 
 **Ryan’s account was disabled and retained for audit purposes.**
 
-![Ryan disabled account verification](screenshots/Entra-JML-Dunder-Mifflin-Lab/04-Leaver-Ryan/04-Leaver-Ryan%3A07-ryan-account-disabled-verified.png)
+![Ryan disabled account verification](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/04-Leaver-Ryan/04-Leaver-Ryan%3A07-ryan-account-disabled-verified.png?raw=true)
 
 **Ryan’s audit trail shows account disablement, session revocation, removal from active groups, and addition to the leaver-hold group.**
 
-![Ryan audit logs](screenshots/Entra-JML-Dunder-Mifflin-Lab/04-Leaver-Ryan/04-Leaver-Ryan%3A15-ryan-audit-logs.png)
+![Ryan audit logs](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/04-Leaver-Ryan/04-Leaver-Ryan%3A15-ryan-audit-logs.png?raw=true)
 
 ## Final Validation
 
 **Final validation confirmed Erin retained Reception access, Jim retained Management access, and Ryan retained only the leaver-hold membership.**
 
-![Final group validation](screenshots/Entra-JML-Dunder-Mifflin-Lab/05-Audit-Logs/05-Final-Validation%3A04-final-group-validation.png)
+![Final group validation](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/05-Audit-Logs/05-Final-Validation%3A04-final-group-validation.png?raw=true)
