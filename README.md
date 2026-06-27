@@ -208,6 +208,7 @@ Audit evidence confirmed successful Microsoft Graph-initiated actions, including
 - Session revocation
 - Identity audit-log validation
 - IAM workflow documentation
+
 ---
 
 # Evidence
