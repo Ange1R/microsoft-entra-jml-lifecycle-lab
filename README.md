@@ -208,7 +208,6 @@ Audit evidence confirmed successful Microsoft Graph-initiated actions, including
 - Session revocation
 - Identity audit-log validation
 - IAM workflow documentation
-
 ---
 
 # Evidence
@@ -254,5 +253,3 @@ The screenshots below show the completed Microsoft Entra ID Joiner-Mover-Leaver 
 **Final validation confirmed Erin retained Reception access, Jim retained Management access, and Ryan retained only the leaver-hold membership.**
 
 ![Final group validation](screenshots/Entra-JML-Dunder-Mifflin-Lab/05-Audit-Logs/05-Final-Validation%3A04-final-group-validation.png)
-
-![Final group validation](https://github.com/Ange1R/microsoft-entra-jml-lifecycle-lab/blob/main/screenshots/Entra-JML-Dunder-Mifflin-Lab/05-Audit-Logs/05-Final-Validation%3A04-final-group-validation.png?raw=true)
