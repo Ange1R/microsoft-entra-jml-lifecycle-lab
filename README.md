@@ -251,6 +251,6 @@ The screenshots below show the completed Microsoft Entra ID Joiner-Mover-Leaver 
 
 ## Final Validation
 
-**Final validation confirmed Erin retained Reception access, Jim retained Management access, and Ryan retained only the leaver-hold membership.**
+**Final validation confirmed Erin retained Reception access, Jim retained Management access, and Ryan retained only the leaver-hold membership.*
 
 ![Final group validation](screenshots/Entra-JML-Dunder-Mifflin-Lab/05-Audit-Logs/05-Final-Validation%3A04-final-group-validation.png)
